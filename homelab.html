@@ -28,8 +28,8 @@
             </h1>
             <p>
                 By leveraging various virtualization platforms and operating systems, I deploy and configure
-                diverse network environments to exercise a versatile skillset ranging from threat detection with
-                SIEM and EDR solutions to vulnerability management.
+                diverse network environments to exercise a versatile skillset ranging from threat detection and response
+                to vulnerability management and system hardening.
             </p>
 
             <ul class="actions">
@@ -77,7 +77,7 @@
                     <h4><u>Vulnerability Scanners:</u> Nessus Essentials</h4>
                     <h4><u>Threat Hunting:</u> AC-Hunter Community Edition</h4>
                     <h4><u>SIEM & EDR Solutions:</u> Wazuh, Sentinel, LimaCharlie</h4>
-                    <h4><u>Operating Systems:</u> Windows, Kali, Kali Purple, Security Onion</h4>
+                    <h4><u>Operating Systems:</u> Windows, Kali / Purple, Ubuntu, Security Onion</h4>
                     <h4><u>Virtualization PLatforms:</u> VMWare Workstation Pro, Oracle VM VirtualBox</h4>
 
                 </header>
@@ -100,7 +100,7 @@
                     </header>
                     <a href="https://github.com/DaveRoppo/Cyber-Security/blob/main/Blue%20Team/Malware%20Traffic%20Analysis/Redline-Stealer/README.md"
                         class="image fit"><img src="images/dash-overview.png" alt="" /></a>
-                    <p>Deployed and configured Security Onion on VMware Workstation Pro, leveraging Security Onion
+                    <p>Deployed and configured Security Onion on VMware Workstation Pro, employing Security Onion
                         Console, Network Miner, Wireshark, MITRE ATT&CK, and Virus Total for malware traffic analysis
                         and threat hunting. Investigated alerts, identified malicious traffic, extracted Indicators of
                         Compromise (IOCs), and pinpointed infected hosts in Windows Active Directory, culminating in a
@@ -118,7 +118,7 @@
                     </header>
                     <a href="https://github.com/DaveRoppo/Cyber-Security/blob/main/Labs/AC%20Hunter/README.md"
                         class="image fit"><img src="images/ac_cobalt.png" alt="" /></a>
-                    <p>Leveraging Active Countermeasures' AC-Hunter to proactively search for and identify
+                    <p>Applied Active Countermeasures' AC-Hunter to proactively search for and identify
                         potential security threats and adversaries within an organization's
                         network infrastructure. Unlike traditional measures that rely on
                         automated security tools to detect known threats, threat hunting involves human-driven
@@ -139,12 +139,11 @@
                     <a href="https://github.com/DaveRoppo/Cyber-Security/blob/main/Labs/SOC%20Analyst%20Home%20Lab/Readme.md"
                         class="image fit"><img src="images/lcvs2.png" alt="" /></a>
                     <p>
-                        In this project, I configure a home lab environment featuring an Ubuntu Server VM and a
-                        vulnerable Windows 11 VM using VMware. With a LimaCharlie EDR agent
-                        installed on the victim endpoint, I generate attack telemetry using offensive tools like Sliver
-                        C2 on Ubuntu Server, observe the telemetry in the LimaCharlie web interface, and
-                        craft and fine-tune detection and response rules to effectively identify and respond to
-                        malicious activity.</p>
+                        Configured a virtual environment using VMware, featuring an attacking Ubuntu Server VM and a
+                        vulnerable Windows 11 VM. Installed a LimaCharlie EDR agent on the victim endpoint, generated
+                        attack telemetry using offensive tools like Sliver C2 on the Ubuntu Server, observed the
+                        telemetry in the LimaCharlie web interface, and crafted and fine-tuned detection and response
+                        rules to effectively identify and respond to malicious activity.</p>
                     <ul class="actions special">
                         <li><a href="https://github.com/DaveRoppo/Cyber-Security/blob/main/Labs/SOC%20Analyst%20Home%20Lab/Readme.md"
                                 class="button">View Project On GitHub</a></li>
@@ -153,15 +152,15 @@
                 <article>
                     <header id="onion">
                         <h2><a
-                                href="https://github.com/DaveRoppo/Cyber-Security/blob/main/Blue%20Team/Malware%20Traffic%20Analysis/Redline-Stealer/README.md">Home
-                                Network Security Monitoring - Wazuh</a>
+                                href="https://github.com/DaveRoppo/Cyber-Security/blob/main/Blue%20Team/Malware%20Traffic%20Analysis/Redline-Stealer/README.md">Network
+                                Security Monitoring - Wazuh</a>
                         </h2>
                     </header>
                     <a href="" class="image fit"><img src="images/w1.png" alt="" /></a>
-                    <p>Deployed and configured Wazuh to enhance security across my home network. Leveraged Wazuh’s
-                        comprehensive security capabilities to implement incident detection and response, vulnerability
-                        management, file integrity monitoring, and system hardening aligned with CIS Critical Security
-                        Controls.
+                    <p>Utilized Wazuh's comprehensive security features to establish incident detection and response
+                        processes,
+                        conduct vulnerability management, monitor file integrity, and harden systems in alignment with
+                        CIS Critical Security Controls.
                     </p>
                     <ul class="actions special">
                         <li><a href="" class="button">Project In Progress</a></li>
@@ -170,7 +169,9 @@
                 <article>
                     <header>
                         <h2><a
-                                href="https://github.com/DaveRoppo/Cyber-Security/blob/main/Labs/Microsoft%20Sentinel%20(SIEM)%20Lab/README.md">Microsoft
+                                href="https://github.com/DaveRoppo/Cyber-Security/blob/main/Labs/Microsoft%20Sentinel%20(SIEM)%20Lab/README.md">Honeypot
+                                Monitoring
+                                - Microsoft
                                 Sentinel
                                 SIEM<br />
                             </a></h2>
@@ -179,7 +180,7 @@
                         class="image fit"><img src="images/law.png" alt="" /></a>
                     <p>Established a Microsoft Sentinel SIEM lab using Azure VMs and Log Analytics Workspace, connecting
                         it to a Windows 10 VM serving as a honeypot for actively monitoring incoming global RDP Brute
-                        Force attacks. Developed a PowerShell script leveraging the geolocation.io API to perform
+                        Force attacks. Employed a PowerShell script using the geolocation.io API to perform
                         geolocation lookups on attackers, enhancing threat intelligence and mapping capabilities within
                         Sentinel.</p>
                     <ul class="actions special">
@@ -196,10 +197,9 @@
                     </header>
                     <a href="https://github.com/DaveRoppo/Cyber-Security/blob/main/Labs/Vulnerability%20Management%20Lab/README.md"
                         class="image fit"><img src="images/vuln2.png" alt="" /></a>
-                    <p>Demonstrated effective vulnerability management by leveraging Nessus Essentials to perform a
-                        credentialed scan and identified and remediated 156 Critical and High vulnerabilities in a
-                        Windows 10 VM, highlighting proficiency in identifying and remediating security risks in
-                        controlled environments.</p>
+                    <p>Conducted credentialed scans using Nessus Essentials, identifying and remediating over 150
+                        critical vulnerabilities in a Windows environment, highlighting proficiency in mitigating
+                        security risks in controlled environments.</p>
                     <ul class="actions special">
                         <li><a href="https://github.com/DaveRoppo/Cyber-Security/blob/main/Labs/Vulnerability%20Management%20Lab/README.md"
                                 class="button">View Project On GitHub</a></li>
