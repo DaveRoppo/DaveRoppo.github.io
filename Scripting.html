@@ -80,33 +80,62 @@
 			<section class="posts">
 				<article>
 					<header id="py">
+						<h2><a href="https://github.com/DaveRoppo/Cyber-Security/tree/main/Python/VirusTotal">System
+								Security Update Notificaiton via Slack<br />
+							</a></h2>
+					</header>
+					<a href="https://github.com/DaveRoppo/Cyber-Security/blob/main/Linux/Bash/Security%20Update%20Notification/README.md"
+						class="image fit"><img src="images/sec_up.png" alt="" /></a>
+					<p>This bash script is designed to enhance system security by automatically checking for available
+						security updates using Debian's Advanced Package Tool (APT). If updates are detected, the script
+						notifies a designated Slack channel through a webhook. The script includes error handling to
+						manage potential issues during notification delivery and also features logging that records each
+						check and notification result. Additionally, the script is configured to run daily via a cron
+						job, automating the process of security monitoring and ensuring consistent checks without manual
+						intervention.</p>
+					<ul class="actions special">
+						<li><a href="https://github.com/DaveRoppo/Cyber-Security/blob/main/Linux/Bash/Security%20Update%20Notification/README.md"
+								class="button">View Script On GitHub</a></li>
+					</ul>
+				</article>
+
+				<article>
+					<header id="py">
+						<h2><a href="https://github.com/DaveRoppo/Cyber-Security/tree/main/Python/VirusTotal">IP
+								Address and File Hash Reputation Check with VirusTotal<br />
+							</a></h2>
+					</header>
+					<a href="https://github.com/DaveRoppo/Cyber-Security/tree/main/Python/VirusTotal"
+						class="image fit"><img src="images/vt.png" alt="" /></a>
+					<p>This Python script is an open-source intelligence (OSINT) tool designed to enhance threat
+						intelligence by querying the VirusTotal API to check the reputation of IP addresses and file
+						hashes, gaining valuable insights into potential threats. Upon execution, the script prompts the
+						user to select between querying an IP address or a hash. It then interacts with the VirusTotal
+						API to fetch and display detailed threat analysis, including the number of detections
+						categorized as malicious, suspicious, undetected, and harmless. If available, WHOIS information
+						is also provided for further insight. Additionally, The script incorporates error handling,
+						ensuring that any issues with the API request are communicated clearly.</p>
+					<ul class="actions special">
+						<li><a href="https://github.com/DaveRoppo/Cyber-Security/tree/main/Python/VirusTotal"
+								class="button">View Script On GitHub</a></li>
+					</ul>
+				</article>
+				<article>
+					<header id="py">
 						<h2><a href="https://github.com/DaveRoppo/Cyber-Security/tree/main/Linux/Bash/Honeyport">Honeyport<br />
 							</a></h2>
 					</header>
 					<a href="https://github.com/DaveRoppo/Cyber-Security/tree/main/Linux/Bash/Honeyport"
 						class="image fit"><img src="images/honey.png" alt="" /></a>
-					<p>A bash script used to start a netcat listener on port 1025 and create a firewall rule to drop IP
+					<p>A bash script used to start a netcat listener functioning as a honeyport on port 1025 and create
+						a firewall rule using iptables to drop IP
 						addresses that attempt to connect to it.</p>
 					<ul class="actions special">
 						<li><a href="https://github.com/DaveRoppo/Cyber-Security/tree/main/Linux/Bash/Honeyport"
 								class="button">View Script On GitHub</a></li>
 					</ul>
 				</article>
-				<article>
-					<header id="py">
-						<h2><a href="https://github.com/DaveRoppo/Cyber-Security/tree/main/Python/VirusTotal">IP
-								Address and File Hash Reputation Check<br />
-							</a></h2>
-					</header>
-					<a href="https://github.com/DaveRoppo/Cyber-Security/tree/main/Python/VirusTotal"
-						class="image fit"><img src="images/vt.png" alt="" /></a>
-					<p>A python script used to check the reputation of submitted IP addresses and file hashes against
-						the VirusTotal database using an API request.</p>
-					<ul class="actions special">
-						<li><a href="https://github.com/DaveRoppo/Cyber-Security/tree/main/Python/VirusTotal"
-								class="button">View Script On GitHub</a></li>
-					</ul>
-				</article>
+
 				<article>
 					<header id="py">
 						<h2><a href="https://github.com/DaveRoppo/Cyber-Security/tree/main/Python/Example%20Ransomware">Example
